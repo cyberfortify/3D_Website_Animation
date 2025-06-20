@@ -51,7 +51,7 @@ const loader = new GLTFLoader()
 let model
 
 loader.load(
-    './DamagedHelmet.gltf',
+    '/DamagedHelmet.gltf',
     function (gltf) {
         model = gltf.scene
         scene.add(model)
